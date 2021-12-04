@@ -1,0 +1,21 @@
+{
+    "name": "Weather App ",
+    "description": "A weather app that shows the current weather information.",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Weather App",
+        "default_icon": "Images/weather-app-logo_256 X 256.png"
+    },
+    "icons": {
+        "16": "Images/weather-app-logo_16 X 16.png",
+        "32": "Images/weather-app-logo_32 X 32.png",
+        "64": "Images/weather-app-logo_64 X 64.png",
+        "128": "Images/weather-app-logo_128 X 128.png",
+        "256": "Images/weather-app-logo_256 X 256.png"
+    },
+    "permissions": [
+        "geolocation"
+    ]
+}
