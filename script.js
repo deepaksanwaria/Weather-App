@@ -12,7 +12,7 @@ const input = document.querySelector('input'),
     humidity_value = document.getElementById('humidity_value'),
     weather_image = document.getElementById('weather_img');
 let api;
-
+var appid = "a68ca9034e611cf04b44696858a0f726";
 // Fetching Cookie Value and storing the value to city_cookie
 let city_cookie = "";
 try {
@@ -51,14 +51,14 @@ locationBtn.addEventListener("click", () => {
 
 // Setting the api 
 function requestApi(city) {
-    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a68ca9034e611cf04b44696858a0f726`;
+    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${appid}`;
     fetchData();
 }
 
 //  if the location button is clicked, OnSuccess function is called if location is found
 function onSuccess(position) {
     const { latitude, longitude } = position.coords; // getting the latitude and longitude
-    api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=a68ca9034e611cf04b44696858a0f726`; // setting the api
+    api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${appid}`; // setting the api
     fetchData(); // calling the fetchData() function
 }
 
