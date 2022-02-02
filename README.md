@@ -1,11 +1,9 @@
 # Weather APP (Google Chrome Extension)
 It is a google chrome extension that displays the current weather condition (temperature, humidity, real feal, sunrise time, etc.) of the location you are in or the location you search for.
 <br/><br/>
-<center>
 
 ![IMAGE](Images/weather-app-logo.png)
 
-</center>
 <br/><br>
 
 # Deployment
@@ -43,10 +41,10 @@ Your browser needs to allow the use of <strong>geolocation</strong>. This is don
 
 <h3> <b> This step is optional. It is only needed if you want to use the location button in the extension.</b></h3>
 <br/>
-<center>
 
-![IMAGE](Images/screenshot_location.jpg)
-</center>
+
+![IMAGE](Images/Screenshot_location.jpg)
+
 
 <br/><br/>
 
@@ -54,10 +52,9 @@ Your browser needs to allow the use of <strong>geolocation</strong>. This is don
 <br/><br/>
 
 # Screenshot
-<center>
 
-![IMAGE](Images/screenshot.jpg)
-</center>
+![IMAGE](Images/Screenshot.jpg)
+
 <br/><br/>
 
 # Author 
